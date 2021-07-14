@@ -14,10 +14,6 @@
             android:icon="@drawable/orders"
             android:title="Orders" />
         <item
-            android:id="@+id/nav_category"
-            android:icon="@drawable/category"
-            android:title="Category" />
-        <item
             android:id="@+id/nav_setting"
             android:icon="@drawable/ic_menu_manage"
             android:title="Setting" />
@@ -26,20 +22,5 @@
             android:icon="@drawable/logout"
             android:title="Logout" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share"
-                android:iconTint="@android:color/holo_green_light"/>
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send"
-                android:iconTint="@android:color/holo_green_light"/>
-        </menu>
-    </item>
 
 </menu>

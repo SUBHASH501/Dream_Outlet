@@ -93,7 +93,7 @@ public class CartActivity extends AppCompatActivity {
                                 else if(which == 1){
                                     //remove from admin view
                                     databaseReference.child("Admin View")
-                                            .child("abdullah234ktk@gmail,com").child("Products").child(cart.getPid()).removeValue();
+                                            .child("janirakeshkumar2002@gmail,com").child("Products").child(cart.getPid()).removeValue();
 
                                     //remove from user view
                                     databaseReference.child("User View")

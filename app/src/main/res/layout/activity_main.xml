@@ -4,34 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welcome"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:id="@+id/appLogo"
-        android:layout_width="344dp"
-        android:layout_height="119dp"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="96dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/applogo" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/IntroInfo"
-        android:layout_width="292dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="318dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
         android:padding="5dp"
-        android:text="Find, Descover and Buy any thing online Here"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/white"
+        android:text="We Touch Emotions"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="29sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/appLogo"
         app:layout_constraintStart_toStartOf="@+id/appLogo"
         app:layout_constraintTop_toBottomOf="@+id/appLogo" />
@@ -45,7 +44,6 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/join"
         android:text="join"
-        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/loginButton"
