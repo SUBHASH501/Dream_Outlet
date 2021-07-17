@@ -71,6 +71,8 @@ public class Admin_AddNewProduct_Activity extends AppCompatActivity {
         });
     }
 
+
+    //for uploading products image
     private void OpenGallery() {
         Intent galleryIntent = new Intent();
         galleryIntent.setAction(Intent.ACTION_GET_CONTENT);

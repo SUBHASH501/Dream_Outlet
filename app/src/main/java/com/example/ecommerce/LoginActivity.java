@@ -126,7 +126,11 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+
+        ///paper class for remembering user
         Paper.init(this);
+
 
         email = findViewById(R.id.signIn_input_editEmail);
         password = findViewById(R.id.signIn_input_password);
